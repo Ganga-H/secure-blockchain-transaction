@@ -19,7 +19,6 @@ A secure blockchain-based transaction system with advanced security features, us
 - [Deployment](#-deployment)
 - [Security](#-security)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
@@ -212,6 +211,7 @@ Access the app at: [http://localhost:5173](http://localhost:5173)
 - JavaScript — 96.6%  
 - Solidity — 2.3%  
 - Other — 1.1%
+
 
 
 
