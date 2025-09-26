@@ -1,9 +1,4 @@
-Got it 👍 — your README currently has **Git merge conflict markers** (`<<<<<<< HEAD`, `=======`, `>>>>>>> ...`).
-We’ll clean that up and make it polished so you can directly use it in your `README.md`.
 
-Here’s the **fixed README.md** content:
-
-```markdown
 # Secure Blockchain Transaction System
 
 📋 **Table of Contents**
@@ -49,7 +44,7 @@ The system consists of three main components:
 ---
 
 ## 🏗️ Architecture
-```
+
 
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │                 │     │                 │     │                 │
@@ -60,15 +55,15 @@ The system consists of three main components:
 ▲                       ▲                       ▲
 │                       │                       │
 └───────────────────────┼───────────────────────┘
-│
-┌───────▼───────┐
-│               │
-│   Database    │
-│  (MongoDB)    │
-│               │
-└───────────────┘
+                        │
+                ┌───────▼───────┐
+                │               │
+                │   Database    │
+                │  (MongoDB)    │
+                │               │
+                └───────────────┘
 
-````
+
 
 ---
 
@@ -103,32 +98,32 @@ The system consists of three main components:
 
 ### Installation
 Clone the repository:
-```bash
+bash
 git clone https://github.com/Ganga-H/secure-blockchain-transaction.git
 cd secure-blockchain-transaction
-````
+
 
 Install root dependencies:
 
-```bash
+bash
 npm install
-```
+
 
 Install frontend dependencies:
 
-```bash
+bash
 cd frontend
 npm install
 cd ..
-```
+
 
 Install backend dependencies:
 
-```bash
+bash
 cd backend
 npm install
 cd ..
-```
+
 
 ---
 
@@ -136,22 +131,22 @@ cd ..
 
 Create a **`.env`** file in the root directory with the following variables:
 
-```env
+env
 SEPOLIA_URL=<Your Sepolia RPC URL>
 MAINNET_URL=<Your Mainnet RPC URL>
 PRIVATE_KEY=<Your wallet private key>
 ETHERSCAN_API_KEY=<Your Etherscan API key>
-```
+
 
 Create a **`.env`** file in the backend directory:
 
-```env
+env
 PORT=3000
 MONGODB_URI=<Your MongoDB connection string>
 JWT_SECRET=<Your JWT secret key>
 NODE_ENV=development
 FRONTEND_URL=http://localhost:5173
-```
+
 
 ---
 
@@ -159,29 +154,29 @@ FRONTEND_URL=http://localhost:5173
 
 ### Smart Contract Development
 
-```bash
+bash
 npx hardhat compile       # Compile contracts
 npx hardhat test          # Run tests
 npx hardhat node          # Start a local Hardhat node
 npx hardhat run scripts/deploy.js --network <network>   # Deploy contracts
 npx hardhat verify --network <network> <contract_address>   # Verify contracts
-```
+
 
 ### Backend Development
 
-```bash
+bash
 cd backend
 npm run dev
-```
+
 
 Access the API at: [http://localhost:3000](http://localhost:3000)
 
 ### Frontend Development
 
-```bash
+bash
 cd frontend
 npm run dev
-```
+
 
 Access the app at: [http://localhost:5173](http://localhost:5173)
 
@@ -219,20 +214,21 @@ Access the app at: [http://localhost:5173](http://localhost:5173)
 1. Fork the repository
 2. Create a feature branch:
 
-   ```bash
+   bash
    git checkout -b feature/your-feature
-   ```
+   
 3. Commit your changes:
 
-   ```bash
+   bash
    git commit -m "Add some feature"
-   ```
+   
 4. Push to the branch:
 
-   ```bash
+   bash
    git push origin feature/your-feature
-   ```
+   
 5. Open a pull request
 
 ---
+
 
