@@ -208,6 +208,11 @@ Access the app at: [http://localhost:5173](http://localhost:5173)
 5. Open a pull request
 
 ---
+## 📊 Languages Used
+- JavaScript — 96.6%  
+- Solidity — 2.3%  
+- Other — 1.1%
+
 
 
 
