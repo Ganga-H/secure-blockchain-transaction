@@ -43,30 +43,6 @@ The system consists of three main components:
 
 ---
 
-## 🏗️ Architecture
-
-
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│                 │     │                 │     │                 │
-│    Frontend     │◄────┤     Backend     │◄────┤  Smart Contract │
-│    (React)      │     │  (Node.js/API)  │     │   (Ethereum)    │
-│                 │     │                 │     │                 │
-└─────────────────┘     └─────────────────┘     └─────────────────┘
-▲                       ▲                       ▲
-│                       │                       │
-└───────────────────────┼───────────────────────┘
-                        │
-                ┌───────▼───────┐
-                │               │
-                │   Database    │
-                │  (MongoDB)    │
-                │               │
-                └───────────────┘
-
-
-
----
-
 ## 🛠️ Tech Stack
 ### Blockchain
 - Ethereum: Blockchain platform  
@@ -99,30 +75,30 @@ The system consists of three main components:
 ### Installation
 Clone the repository:
 bash
-git clone https://github.com/Ganga-H/secure-blockchain-transaction.git
-cd secure-blockchain-transaction
+- git clone https://github.com/Ganga-H/secure-blockchain-transaction.git
+- cd secure-blockchain-transaction
 
 
 Install root dependencies:
 
 bash
-npm install
+- npm install
 
 
 Install frontend dependencies:
 
 bash
-cd frontend
-npm install
-cd ..
+- cd frontend
+- npm install
+- cd ..
 
 
 Install backend dependencies:
 
 bash
-cd backend
-npm install
-cd ..
+- cd backend
+- npm install
+- cd ..
 
 
 ---
@@ -165,8 +141,8 @@ npx hardhat verify --network <network> <contract_address>   # Verify contracts
 ### Backend Development
 
 bash
-cd backend
-npm run dev
+- cd backend
+- npm run dev
 
 
 Access the API at: [http://localhost:3000](http://localhost:3000)
@@ -174,8 +150,8 @@ Access the API at: [http://localhost:3000](http://localhost:3000)
 ### Frontend Development
 
 bash
-cd frontend
-npm run dev
+- cd frontend
+- npm run dev
 
 
 Access the app at: [http://localhost:5173](http://localhost:5173)
@@ -215,20 +191,21 @@ Access the app at: [http://localhost:5173](http://localhost:5173)
 2. Create a feature branch:
 
    bash
-   git checkout -b feature/your-feature
+   - git checkout -b feature/your-feature
    
 3. Commit your changes:
 
    bash
-   git commit -m "Add some feature"
+   - git commit -m "Add some feature"
    
 4. Push to the branch:
 
    bash
-   git push origin feature/your-feature
+   - git push origin feature/your-feature
    
 5. Open a pull request
 
 ---
+
 
 
