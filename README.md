@@ -1,7 +1,6 @@
-### 🔐 secure-blockchain-transactions
-A secure blockchain-based transaction system with advanced security features, user authentication, and real-time transaction tracking
----
+
 # Secure Blockchain Transaction System
+A secure blockchain-based transaction system with advanced security features, user authentication, and real-time transaction tracking
 
 📋 **Table of Contents**
 - [Overview](#-overview)
@@ -208,6 +207,7 @@ Access the app at: [http://localhost:5173](http://localhost:5173)
 5. Open a pull request
 
 ---
+
 
 
 
